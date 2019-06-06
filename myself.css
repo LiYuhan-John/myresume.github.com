@@ -1,0 +1,33 @@
+<style>
+    body{
+        padding-top: 100px;
+        background-color: black;
+    }
+    /* 正文字体 */
+    p{
+        margin: 2px auto; /* 外边距 */
+        white-space: normal;
+        font-family: Times, TimesNR, 'New Century Schoolbook',Georgia, 'New York', serif;
+    }
+    /* 主盒子设置 */
+    #ID_Inf, #ID_Edu, #ID_Exp, #ID_Work, #ID_Skl{
+        /*
+        position:fixed;
+        left:10%;
+        right:10%;
+        top:10px;
+        */
+        /* height: 200px; 高度 */
+        padding: 5px;/* 内边距 */
+        margin: 20px auto; /* 外边距 */
+        border: 5px; /* 边框宽度 */
+        border-style: solid solid solid solid; /* 边框样式 */
+        /* background-color:rebeccapurple; */
+    }
+    .CLASS_Exp, .CLASS_Work{
+        padding: 5px;/* 内边距 */
+        margin: 20px auto; /* 外边距 */
+        border: 5px; /* 边框宽度 */
+        border-style: solid solid solid solid; /* 边框样式 */
+    }
+</style>
